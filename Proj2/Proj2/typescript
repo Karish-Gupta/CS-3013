@@ -1,0 +1,97 @@
+Script started on 2023-09-14 19:39:00-04:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="210" LINES="25"]
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ [K[kagupta@ccc-app-p-u15 proj2]$ ./proj[K[K[K[Ka proj2.c
+[?2004lascii=7184, upper=128, lower=3468, digit=92, space=2446 out of 7184 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a proj2.c[K[K[K[K[K[K[Ka
+[?2004lascii=25073, upper=1540, lower=3178, digit=648, space=366 out of 25073 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4Kbytes mmap
+[?2004lascii=2032, upper=419, lower=424, digit=137, space=96 out of 4000 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4k[KKbytes 8000
+[?2004lascii=2032, upper=419, lower=424, digit=137, space=96 out of 2032 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4Kbytes 8000[K[K[K[K
+[?2004lascii=2032, upper=419, lower=424, digit=137, space=96 out of 2032 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4Kbytes p5
+[?2004lascii=426, upper=91, lower=92, digit=28, space=21 out of 426 bytes 
+ascii=406, upper=83, lower=83, digit=25, space=10 out of 406 bytes 
+ascii=383, upper=83, lower=77, digit=24, space=19 out of 383 bytes 
+ascii=393, upper=69, lower=74, digit=32, space=25 out of 393 bytes 
+ascii=424, upper=93, lower=98, digit=28, space=21 out of 424 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4Kbytes p5[K16
+[?2004lascii=130, upper=26, lower=31, digit=10, space=8 out of 130 bytes 
+ascii=133, upper=31, lower=19, digit=6, space=9 out of 133 bytes 
+ascii=116, upper=26, lower=16, digit=10, space=5 out of 116 bytes 
+ascii=135, upper=23, lower=31, digit=8, space=3 out of 135 bytes 
+ascii=141, upper=31, lower=38, digit=10, space=3 out of 141 bytes 
+ascii=124, upper=22, lower=30, digit=7, space=2 out of 124 bytes 
+ascii=118, upper=32, lower=24, digit=8, space=5 out of 118 bytes 
+ascii=128, upper=32, lower=26, digit=4, space=4 out of 128 bytes 
+ascii=112, upper=17, lower=23, digit=6, space=5 out of 112 bytes 
+ascii=140, upper=33, lower=30, digit=13, space=8 out of 140 bytes 
+ascii=139, upper=29, lower=36, digit=8, space=10 out of 139 bytes 
+ascii=121, upper=23, lower=20, digit=11, space=4 out of 121 bytes 
+ascii=127, upper=31, lower=29, digit=4, space=7 out of 127 bytes 
+ascii=117, upper=20, lower=29, digit=5, space=5 out of 117 bytes 
+ascii=119, upper=15, lower=18, digit=14, space=11 out of 119 bytes 
+ascii=132, upper=28, lower=24, digit=13, space=7 out of 132 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./a 4Kbytes p16[K[K2
+[?2004lascii=1025, upper=223, lower=215, digit=63, space=39 out of 1025 bytes 
+ascii=1007, upper=196, lower=209, digit=74, space=57 out of 1007 bytes 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./doit ,[K./a 10Mbytes mmap
+[?2004lascii=5264940, upper=1068722, lower=1067641, digit=411819, space=247724 out of 10485760 bytes 
+Total CPU time: 179 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 446 
+Number of times the process was preempted involuntarily: 1 
+Number of times the process gave up the CPU voluntarily: 41 
+Number of major page faults: 81
+Number of minor page fault: 159
+Maximum resident set size: 9 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./doit ./a 10Mbytes mmap[K[K[K[K[K 1000
+[?2004lascii=5264940, upper=1068722, lower=1067641, digit=411819, space=247724 out of 5264940 bytes 
+Total CPU time: 184 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 185 
+Number of times the process was preempted involuntarily: 3 
+Number of times the process gave up the CPU voluntarily: 3 
+Number of major page faults: 0
+Number of minor page fault: 77
+Maximum resident set size: 1 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./doit ./a 10Mbytes 1000[K[K[K[Kp6
+[?2004lascii=877203, upper=178185, lower=178234, digit=68796, space=41202 out of 877203 bytes 
+ascii=877392, upper=178347, lower=177887, digit=68372, space=40920 out of 877392 bytes 
+ascii=877819, upper=178407, lower=177997, digit=68593, space=41405 out of 877819 bytes 
+ascii=877176, upper=177085, lower=178351, digit=69049, space=41478 out of 877176 bytes 
+ascii=877975, upper=178454, lower=177706, digit=68545, space=41101 out of 877975 bytes 
+ascii=877375, upper=178244, lower=177466, digit=68464, space=41618 out of 877375 bytes 
+Total CPU time: 174 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 31 
+Number of times the process was preempted involuntarily: 6 
+Number of times the process gave up the CPU voluntarily: 18 
+Number of major page faults: 0
+Number of minor page fault: 470
+Maximum resident set size: 3 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ ./doit ./a 10Mbytes p6[K16
+[?2004lascii=329298, upper=67060, lower=66811, digit=25840, space=15249 out of 329298 bytes 
+ascii=328516, upper=66605, lower=67064, digit=25659, space=15425 out of 328516 bytes 
+ascii=329112, upper=66207, lower=66934, digit=25974, space=15563 out of 329112 bytes 
+ascii=329307, upper=66891, lower=66738, digit=25790, space=15552 out of 329307 bytes 
+ascii=328339, upper=66795, lower=66929, digit=25591, space=15502 out of 328339 bytes 
+ascii=329159, upper=66682, lower=66652, digit=25710, space=15362 out of 329159 bytes 
+ascii=328954, upper=66762, lower=66812, digit=25662, space=15716 out of 328954 bytes 
+ascii=329134, upper=66849, lower=66360, digit=25736, space=15174 out of 329134 bytes 
+ascii=329314, upper=67336, lower=66363, digit=25538, space=15552 out of 329314 bytes 
+ascii=328859, upper=66957, lower=66643, digit=25756, space=15423 out of 328859 bytes 
+ascii=328848, upper=67067, lower=66849, digit=25566, space=15363 out of 328848 bytes 
+ascii=329428, upper=66960, lower=66537, digit=25560, space=15674 out of 329428 bytes 
+ascii=329351, upper=66738, lower=66694, digit=25722, space=15606 out of 329351 bytes 
+ascii=328567, upper=66827, lower=66657, digit=25784, space=15705 out of 328567 bytes 
+ascii=329188, upper=66392, lower=67041, digit=25913, space=15562 out of 329188 bytes 
+ascii=329566, upper=66594, lower=66557, digit=26018, space=15296 out of 329566 bytes 
+Total CPU time: 186 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 24 
+Number of times the process was preempted involuntarily: 55 
+Number of times the process gave up the CPU voluntarily: 42 
+Number of major page faults: 0
+Number of minor page fault: 835
+Maximum resident set size: 1 
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj2[?2004h[kagupta@ccc-app-p-u15 proj2]$ exit
+[?2004lexit
+
+Script done on 2023-09-14 19:45:15-04:00 [COMMAND_EXIT_CODE="0"]

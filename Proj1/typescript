@@ -1,0 +1,66 @@
+Script started on 2023-09-04 17:26:16+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="205" LINES="13"]
+[?2004h]0;student@cs2324: ~/CS3013/Project_1[01;32mstudent@cs2324[00m:[01;34m~/CS3013/Project_1[00m$ exit./doit sleep 3wc text.txt
+[?2004l
+ 0  3 17 text.txt
+Total CPU time: 0 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 0 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 1 
+Number of major page faults: 0
+Number of minor page fault: 89
+Maximum resident set size: 2 
+[?2004h]0;student@cs2324: ~/CS3013/Project_1[01;32mstudent@cs2324[00m:[01;34m~/CS3013/Project_1[00m$ ./doit wc text.txtexit[K./doit sleep 3
+[?2004l
+Total CPU time: 0 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 3002 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 2 
+Number of major page faults: 0
+Number of minor page fault: 86
+Maximum resident set size: 2 
+[?2004h]0;student@cs2324: ~/CS3013/Project_1[01;32mstudent@cs2324[00m:[01;34m~/CS3013/Project_1[00m$ ./doit sleep 3[K[K[K[K[K[K[K[K
+[?2004l
+==>date
+Mon Sep  4 05:27:21 PM UTC 2023
+Total CPU time: 0 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 15040 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 1 
+Number of major page faults: 0
+Number of minor page fault: 90
+Maximum resident set size: 2 
+==>ls
+build  doit  doit.c  text.txt  typescript
+Total CPU time: 0 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 22690 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 2 
+Number of major page faults: 0
+Number of minor page fault: 200
+Maximum resident set size: 2 
+==>^[[A    cd build
+==>ls
+Debug
+Total CPU time: 1 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 46952 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 3 
+Number of major page faults: 0
+Number of minor page fault: 308
+Maximum resident set size: 2 
+==>^[[A^[[A^[[A            set prompty    = myprompt:
+myprompt:pwd
+/home/student/CS3013/Project_1/build
+Total CPU time: 1 milli-seconds
+Elapsed “wall-clock” time for the command to execute: 94441 
+Number of times the process was preempted involuntarily: 0 
+Number of times the process gave up the CPU voluntarily: 6 
+Number of major page faults: 2
+Number of minor page fault: 394
+Maximum resident set size: 2 
+myprompt:exit
+[?2004h]0;student@cs2324: ~/CS3013/Project_1[01;32mstudent@cs2324[00m:[01;34m~/CS3013/Project_1[00m$ exit
+[?2004l
+exit
+
+Script done on 2023-09-04 17:28:55+00:00 [COMMAND_EXIT_CODE="1"]

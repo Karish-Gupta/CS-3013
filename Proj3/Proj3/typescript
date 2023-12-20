@@ -1,0 +1,209 @@
+Script started on 2023-09-28 22:22:55-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="231" LINES="10"]
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./addem 5 10
+[?2004l
+The total for 1 to 10 using 5 threads is 55.
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./addem 10 100
+[?2004l
+The total for 1 to 100 using 10 threads is 5050.
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./adde,m[K[Km 3 1000
+[?2004l
+The total for 1 to 1000 using 3 threads is 500500.
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./adde,[Km 3 62
+[?2004l
+The total for 1 to 62 using 3 threads is 1953.
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./life 3test[K[K[K[K test.txt 10 y
+[?2004l
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 3:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 4:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 5:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 6:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 7:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 8:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 9:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 10:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./life 5 test.txt 4 y y
+[?2004l
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+a
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+
+aGeneration 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+a
+Generation 3:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+a
+Generation 4:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ a
+[?2004l
+bash: a: command not found...
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./life 10 test.txt 2
+[?2004l
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./life 5 test2.txt 3 n n
+[?2004l
+Generation 3:
+0 0 0 0 
+0 1 1 0 
+1 0 0 1 
+0 0 0 0 
+0 0 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ ./liu[Kfe 4 test.txt [K[K[K[K[K2.txt 4 y y[Kn
+[?2004l
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+1 0 1 0 
+1 1 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 1 1 0 
+0 1 1 0 
+0 1 1 0 
+0 0 1 1 
+1 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 2:
+0 0 0 0 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 0 0 
+0 0 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 3:
+0 0 0 0 
+0 1 1 0 
+1 0 0 1 
+0 0 0 0 
+0 0 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Generation 4:
+0 0 0 0 
+0 1 1 0 
+0 1 1 0 
+0 0 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;kagupta@ccc-app-p-u15:~/cs3013/proj3[?2004h[kagupta@ccc-app-p-u15 proj3]$ exit
+[?2004l
+exit
+
+Script done on 2023-09-28 22:30:45-04:00 [COMMAND_EXIT_CODE="0"]

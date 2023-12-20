@@ -1,0 +1,12 @@
+To run addem you may use the makefile: 
+Compile addem.c with make addem 
+Run with ./addem (number of threads) (target number)
+
+To run life:
+Complile life_functions.h with make life_functions
+Compile life.c with make life 
+Run with ./life (number of threads) (filename) (generations) (print) (input)
+
+Many of Life's functions are stored in the life_functions.h file
+
+
